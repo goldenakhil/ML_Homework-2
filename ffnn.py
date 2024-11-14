@@ -1,9 +1,5 @@
 
-Conversations
-9.46 GB of 15 GB used
-Terms · Privacy · Program Policies
-Last account activity: 0 minutes ago
-Details
+
 import numpy as np
 import torch
 import torch.nn as nn
@@ -186,3 +182,5 @@ if __name__ == "__main__":
         print("Validation completed for epoch {}".format(epoch + 1))
         print("Validation accuracy for epoch {}: {}".format(epoch + 1, correct / total))
         print("Validation time for this epoch: {}".format(time.time() - start_time))
+
+    # write out to results/test.out
